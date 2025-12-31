@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" >
+    <title>Reel2Rhythm</title>
+    <link rel="icon" href="fabicon.png" type="image/icon">
+  </head>
+  <body>
+      <header>
+        <p>Reel2Rhythm</p>
+      </header>
+      <div class="name">
+        <p id="p1">MP3 Converter</p>
+        <p id="p2">Convert your video to mp3 free and easily</p>
+      
+      </div>
+      <div class="box1">
+        <div class="image">
+        <img src="heringMusic.jpg" alt="img" id="image">
+      </div>
+      <div class="file">
+        <input type="file" accept="video/*" id="inputId"/>
+        <!-- This is the upload button -->
+        <div class="inner_file">
+          <label for="inputId" class="label">Upload File <i class="fa-regular fa-circle-up"></i></label>
+          <!-- after choosing file covert button will appear -->
+        </div>
+          <div class="convert_file" id="convert_file">
+          <div id="p_convert">File is ready to convert!</div>
+          <p class="file_input" id="file_input"></p>
+          <button id="convert_button">Convert <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="download_file" id="download_file">
+          <div id="p_download">Conversion Successful!</div>
+          <button id="download_button">Download <i class="fa-solid fa-arrow-down"></i></button>
+      </div>
+      
+      </div>
+    <!-- Script tag -->
+    <script src="App.js"></script>
+
+  </body>
+</html>

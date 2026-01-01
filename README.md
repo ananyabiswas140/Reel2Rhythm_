@@ -33,7 +33,7 @@
      
 >## 2. Nevigate into the directory:
      
-     cd Reel2Rhythm
+     cd Reel2Rhythm_
     
 >## 3. If there is no node module then install it:
      

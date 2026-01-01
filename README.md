@@ -29,7 +29,7 @@
 
 >## 1. Clone the git repository:
     
-     git clone https://github.com/ananyabiswas140/Reel2Rhythm.git
+     git clone https://github.com/ananyabiswas140/Reel2Rhythm_.git
      
 >## 2. Nevigate into the directory:
      

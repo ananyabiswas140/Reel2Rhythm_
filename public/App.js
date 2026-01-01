@@ -19,10 +19,6 @@ input.addEventListener('change', () => {
 // Convert
 convertButton.addEventListener('click', async () => {
   if (!input.files.length) return alert("Select a video!");
-  if (input.files[0].size > 20 * 1024 * 1024) {
-  alert("Max 20MB allowed on mobile");
-  return;
-}
 
   const formData = new FormData();
   formData.append("video", input.files[0]);

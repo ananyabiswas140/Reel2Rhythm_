@@ -14,15 +14,15 @@
 
 
 ## 🔍*Features*
-* **Video Upload:** Upload your local video.
-* **mp3 Extraction:** Extract the music from the video.
-* **Convert It:** Convert the file.
-* **Download:** Download the extraxcted music(mp3). 
+* Video Upload from local storage.
+* Audio (MP3) extraction using FFmpeg.
+* Fast conversion process.
+*  Download extracted MP3 files.
 ## ⚙️*Technology*
-* Use ffmpeg for converting the mp3.
-* HTML, CSS, JavaScript for Frontend.
-* Node.js, Express.js for Backend.
-* For uploading file we required Multer.
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Node.js, Express.js
+* **File Upload:** Multer
+* **Audio Processing:** FFmpeg
 
 ### _👀Let see how to run_
 * #### You **must** have installed _ffmpeg_ in your system ([Download FFmpeg](https://ffmpeg.org/download.html))

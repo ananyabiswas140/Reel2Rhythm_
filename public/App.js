@@ -29,10 +29,11 @@ convertButton.addEventListener('click', async () => {
 
   convertButton.textContent = "Converting...";
 
-  const response = await fetch("http://localhost:5000/convert", {
-    method: "POST",
-    body: formData
-  });
+  const response = await fetch("/convert", {
+  method: "POST",
+  body: formData
+});
+
 
   const blob = await response.blob();
   audioBlobURL = URL.createObjectURL(blob);
